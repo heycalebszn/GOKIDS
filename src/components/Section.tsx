@@ -2,7 +2,7 @@ import { ReactNode } from "react"
 
 interface SectionProps {
     children: ReactNode
-    sectionStyles: string
+    sectionStyles?: string
 }
 
 export const Section: React.FC<SectionProps> = ({ children, sectionStyles }) => {

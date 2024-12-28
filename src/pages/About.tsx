@@ -1,6 +1,6 @@
 import { Section } from "../components/Section";
 
-const Home = () => {
+const About = () => {
     return(
         <Section>
             <div></div>
@@ -8,4 +8,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default About;
