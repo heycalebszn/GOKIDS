@@ -2,7 +2,7 @@ import { logo } from "../assets";
 
 export const Navbar = () => {
     return(
-        <nav className="flex justify-between items-center">
+        <nav className="flex justify-between items-center shadow-2xl px-5">
             <div className="flex">
             <img src={logo} alt="GoKids" />
             <div className="flex flex-col">
